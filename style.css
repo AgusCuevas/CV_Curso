@@ -1,0 +1,269 @@
+body{
+    background-color: rgb(229, 229, 229);
+}
+
+.portada1{
+    background-image: url("https://www.useit.es/sites/default/files/styles/panorami/public/2019-12/portada%20i%20mini_0.jpg?itok=qKXKBWw7");
+    width: 15%;
+    height: 100%;
+    padding: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+    position: fixed;
+}
+
+.img-thumbnail {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.img-thumbnail:hover {
+    width: 12rem;
+    height: 12rem;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar{
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.boton{
+    background-color: rgb(0, 136, 255);
+    border: none;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 3%;
+    width: 15rem;
+    height: 3rem;
+    margin: 1rem;
+}
+
+.boton:hover {
+    background-color: rgb(23, 21, 96);
+    transition: 0.5s ease-in-out;
+}
+
+.targeta1{
+    flex-direction: column;
+    
+}
+
+.targetas2{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.targeta{
+    border-style: solid;
+    margin-bottom: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+} 
+
+.titulo{
+    background-color: rgb(83, 175, 255);
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+    padding: 1rem;
+}
+
+.informacion{
+    background-color: rgb(229, 229, 229);
+    font-size: large;
+    padding: 1rem;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.imagenContacto{
+    height: 35px;
+    width: 35px;
+    transition: 300ms;
+    width: 35%;
+    height: 35%;
+  }
+  
+  .imagenContacto:hover{
+    transform: scale(1.05);
+  }
+  
+.experiencia{
+    display: flex;
+    justify-content: center;
+}
+
+.logosisem{
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
+}
+
+.logounahur{
+    height: 5rem;
+    width: 200px;
+    margin: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 1000px) {
+    .portada1 {
+      display: none;
+    }
+  }
+
+  @media (max-width: 200px) {
+    .unahur {
+      width: 100%;
+    }
+  }
+
+  .foto2{
+    display: none;
+  }
+
+  @media (max-width: 1000px) {
+    .foto2 {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .estilo {
+    font-size: calc(1em + 1vw) 
+  }
+  
+  .Proyecto{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .galeria {
+      width: 90%;
+      margin: auto;
+      list-style: none;
+      padding: 20px;
+      box-sizing: border-box;
+      
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  
+  .galeria li {
+      margin: 5px;
+  }
+  
+  .galeria img {
+      width: 400px;
+      height: 250px;
+  }
+
+.modal {
+	display: none;
+    margin: auto;
+}
+
+.modal:target {
+    display: flex;
+    flex-direction: column;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    
+}
+
+
+.modal h3 {
+	color: #fff;
+	font-size: 30px;
+	display: flex;
+    justify-content: center;
+	margin: 15px 0;
+}
+
+.fechas{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen {
+	width: 100%;
+	height: 50%;
+}
+
+.imagen a {
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen a:nth-child(2) {
+	height: 100%;
+	flex-shrink: 2;
+}
+
+.imagen .imgModal {
+	width: 700px;
+	height: 120%;
+	max-width: 100%;
+	border: 7px solid #fff;
+	box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding:0px;
+}
+
+
+.imgCerrar{
+  max-height: 35px;
+  max-width: 100%;
+  text-align: center center;
+	padding:0px;
+  margin-bottom: 10px;
+	border-radius: 50%;
+}
+
+.descripcion{
+  background-color: white;
+	width: 700px;
+    max-width: 100%;
+	margin: auto;
+	text-align: center center;
+	padding:0px;
+	justify-content: center;
+	align-items: center;
+    padding-top: 5rem;
+}
+
+.clickAqui{
+  width: 25%;
+  transition: 300ms;
+}
+
+.botonmodal{
+    border-radius: 5%;
+    font: black;
+}
+
+.botonmodal:hover{
+    background-color: rgb(113, 113, 113);
+}
